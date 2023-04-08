@@ -150,7 +150,8 @@ void printArray(int pData[], int dataSz)
 	if(i>=dataSz)
 	{
 		printf("\n\n");
-		return
+		return;
+	}
 }
 
 int main(void)
